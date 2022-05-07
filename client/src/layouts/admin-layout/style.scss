@@ -1,0 +1,34 @@
+.layout-page {
+  min-height: 100vh;
+  .menu-admin {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+  }
+  .logo {
+    width: 130px;
+    height: auto;
+    object-fit: cover;
+  }
+  .layout-header {
+    position: fixed;
+    top: 0;
+    padding: 15px 0px;
+    width: calc(100% - 235px);
+    height: 68px;
+    align-items: center;
+    z-index: 1000;
+    padding-right: 40px;
+    right: 0;
+    background-color: #fff;
+  }
+  .layout-content {
+    padding-left: 240px;
+    padding-right: 30px;
+  }
+  .layout-collapse {
+    padding-left: 120px;
+  }
+}

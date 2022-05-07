@@ -1,0 +1,201 @@
+.page-detail {
+  padding: 50px 15px 0;
+  
+  .slide-image {
+      img{
+        border-bottom: 1px solid #e0e0e7;
+        padding-bottom: 50px;
+        width: 100% !important;
+        height: 100% !important;
+      }
+      .js-image-zoom__zoomed-image{
+        z-index: 100;
+      }
+    
+  }
+  .description-product {
+    padding-top: 0px;
+    padding-left: 70px;
+    padding-right: 100px;
+    &_layout {
+      width: 91%;
+    }
+    &_title {
+      font-weight: 400 !important;
+
+    }
+    &_intro {
+      padding-bottom: 20px;
+      color: #7c7c80;
+      font-size: 12px;
+    }
+    &_price {
+      text-decoration: line-through;
+      color: #909097;
+      vertical-align: top;
+    }
+    &_price-sale {
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 22px;
+    }
+    &_label {
+      font-size: 16px;
+      padding-top: 15px;
+      padding-bottom: 10px;
+    }
+    &_content {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .btn-submit {
+      height: auto;
+      background-color: #000;
+      color: #fff;
+      width: 100%;
+      padding: 10px 0;
+      margin-top: 30px;
+      p {
+        margin-bottom: 0px;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+    .ant-collapse {
+      border: unset;
+      background-color: #fff;
+      &-content {
+        border: unset;
+      }
+      &-header {
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+    }
+    .exchange {
+      border: 5px dashed #f1f1f1;
+      padding: 15px;
+      color: #9a9a9d;
+      div{
+        padding: 10px 0px;
+      }
+      svg {
+        padding: 1rem;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin-right: 1rem;
+        font-size: 22px;
+        &.fa-truck {
+          background-color: #fff4b8 !important;
+          color: #e6ae15 !important;
+        }
+        &.fa-shield-alt {
+          background-color: #bff9d0 !important;
+          color: #00d994 !important;
+        }
+        &.fa-exchange-alt {
+          background-color: #ffd0d0 !important;
+          color: #d45757 !important;
+        }
+      }
+      span{
+        align-items: center;
+        line-height: 50px;
+      }
+    }
+    .preservation {
+      color: #909097;
+      &-label {
+        color: #7c7c80;
+        font-weight: bold;
+        font-size: 12px;
+      }
+    }
+    .contact-switchboard {
+      text-transform: uppercase;
+      font-size: 18px;
+      span {
+        color: #e23232;
+        padding-left: 15px;
+      }
+      i {
+        background-color: #fff;
+        color: #e23232;
+        margin-right: 5px;
+      }
+    }
+    .contact-text {
+      color: #7c7c80;
+      font-size: 12px;
+    }
+  }
+}
+.description-text {
+  white-space: pre-line;
+  font-size: 16px;
+}
+.note-description{
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+.note-content{
+    padding-top: 50px;
+    align-items: center;
+    &_title{
+        padding-top: 50px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        
+        position: relative;
+        &::before {
+          position: absolute;
+          content: "";
+          background-color: #000;
+          width: 54px;
+          height: 2px;
+          transform: translate(0, 0);
+          top: 100%;
+        }
+    }
+    &_icon{
+        width: 50px;
+        font-size: 40px;
+    }
+    &_text-title{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    &_text-content{
+        font-weight: 400;
+        font-size: 13px;
+    }
+}
+
+.btn-default {
+  margin-right: 7px;
+  height: 40px !important;
+  line-height: 30px !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  width: 70px;
+  border-radius: 3px !important;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.btn-color {
+  background-color: #000 !important;
+  color: #fff !important;
+  margin-right: 7px;
+  height: 40px !important;
+  line-height: 30px !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  width: 70px;
+  border-radius: 3px !important;
+  text-transform: capitalize;
+}

@@ -1,0 +1,111 @@
+@mixin gradient-background(){
+	background: rgba(247,89,89,1);
+	background: -moz-linear-gradient(-45deg, rgba(247,89,89,1) 0%, rgba(243,85,135,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(247,89,89,1)), color-stop(100%, rgba(243,85,135,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(247,89,89,1) 0%, rgba(243,85,135,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(247,89,89,1) 0%, rgba(243,85,135,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(247,89,89,1) 0%, rgba(243,85,135,1) 100%);
+	background: linear-gradient(135deg, rgba(247,89,89,1) 0%, rgba(243,85,135,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f75959', endColorstr='#f35587', GradientType=1 );
+}
+$primary: #f35588;
+$white: #fff;
+.content-page{
+   display: flex;
+   justify-content: center;
+   background-color: #f8f9fd;
+   min-height: 100vh;
+}
+.content-containers {
+  width: 100%;
+  display: flex;
+  min-height: 466px;
+  margin: auto;
+  
+  .login{
+     width: 50%;
+     background-color: #fff;
+     padding: 40px;
+     &-title{
+        font-weight: 300;
+     }
+     .ant-form-item{
+        margin-top: 20px;
+     }
+     &-btn-submit{
+        margin-top: 30px;
+        border: 1px solid #f35588;
+        color: #fff;
+        height: 48px;
+        width: 100%;
+        border-radius: 50px;
+        @include gradient-background();
+		&:hover {
+			border: 1px solid $primary;
+			background: $primary;
+			color :$white;
+		}
+		
+     }
+  
+     &-action{
+        .remember{
+         color: #f35588;
+         font-size: 16px;
+        }
+        .forgot-password{
+           color: gray;
+           font-size: 16px;          
+         }
+     }
+  }
+
+  .forgots-password{
+     width: 100%;
+  }
+  .sign-up{
+   @include gradient-background();
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   .border-white{
+      border-color: $white;
+      width: auto;
+      padding: 0 25px;
+   }
+   &-title{
+      color: $white;
+   }
+   p{
+      color: $white;
+   }
+   .sign-up-content{
+      width: 60%;
+      margin: auto;
+      text-align: center;
+   }
+  }
+  .input-username, .input-password {
+     display: unset;
+    input {
+      height: 48px;
+      background: rgba(0, 0, 0, 0.05);
+      color: #000;
+      font-size: 16px;
+      border-radius: 50px;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: 1px solid transparent;
+      padding-left: 20px;
+      padding-right: 20px;
+      justify-content: be;
+    }
+    label{
+       font-weight: bold;
+       padding-top: 15px;
+    }
+    .ant-form-item-label{
+      width: 100% !important;
+    }
+  }
+}

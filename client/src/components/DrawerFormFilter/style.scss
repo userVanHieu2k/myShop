@@ -1,0 +1,28 @@
+.product_search {
+  &-item {
+    padding: 15px;
+    cursor: pointer;
+  }
+  &-content {
+    padding-left: 15px;
+    h5 {
+      font-size: 16px;
+    }
+  }
+  &-price {
+    span {
+      &:first-child {
+        text-decoration: line-through;
+        color: rgb(126, 126, 126);
+      }
+      &:last-child {
+        font-weight: 500;
+        padding-left: 5px;
+      }
+    }
+  }
+}
+.not-result {
+  padding-left: 6px;
+  margin-top: 10px;
+}

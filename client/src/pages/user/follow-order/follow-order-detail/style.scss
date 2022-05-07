@@ -1,0 +1,35 @@
+.order-detail{
+    width: 50%;
+    margin: auto; 
+    padding: 50px 30px;
+    margin-top: 50px;
+    border: 1px solid rgb(192, 184, 184);
+    h5{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 22px;
+    }
+    &_card{
+        padding: 10px 0px;
+        &-label{
+            width: 30%;
+            font-weight: 600;
+        }
+        
+    }
+    &_product{
+        padding: 10px 0px;
+        &_infor{
+            width: 70% !important;
+            font-weight: 500;
+        }
+        & div:last-child{
+            padding-left: 50px;
+        }
+    }
+    .btn-back{
+        font-weight: bold;
+        padding: 0px 20px;
+        margin-top: 50px;
+    }
+}

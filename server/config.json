@@ -1,0 +1,16 @@
+{
+    "connectionString": "mongodb://127.0.0.1:27017",
+    "emailFrom": "hieunguyenvan3032@gmail.com",
+    "smtpOptions": {
+        "host": "smtp.gmail.com",
+        "port": 465,
+        "secure": true,
+        "auth": {
+            "user": "hieunguyenvan3032@gmail.com",
+            "pass": "wiiubxrsldkdkfrm"
+        },
+        "tls": {
+            "rejectUnauthorized": false
+        }
+    }
+}

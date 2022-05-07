@@ -1,0 +1,126 @@
+.home-page{
+    padding: 50px 0px;
+    .home-slide{
+        background-color: #fff;
+        padding-bottom: 10px;
+        .card-intro{
+            text-align: center;
+            padding-top: 15px;
+            h5{
+                font-size: 14px;
+                font-weight: 600;
+                text-transform: uppercase;
+                margin-top: 15px;
+            }
+            img{
+                width: 40px;
+                height: 40px;
+            }
+            p{
+                color: #7c7c80;
+            }
+        }
+    }
+}
+
+.home-content{
+    padding-top: 50px;
+    width: 100%;
+    .ant-pagination{
+        text-align: right;
+        padding-top: 50px;
+    }
+    &-title{
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 40px;
+    }
+    .product-card{
+        text-align: center;
+        overflow: hidden;
+        img{
+            height: 271px;
+            object-fit: cover;
+            width: 100%;
+            
+            overflow: hidden;
+            &:hover {
+                transition: all 0.5s ease;
+                transform: scale(1.1);
+                height: 271px;
+            }
+        }
+        &_percent{
+            background-color: #00d994;
+            padding: 2px 10px;
+            color: #fff; 
+            position: absolute;
+            top: 30px;
+            left: 15px;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 12px;
+        }
+        &_title{
+            color: #23232c;
+            font-size: 14px;
+            padding-top: 10px;
+            margin-bottom: 5px;
+        }
+        &_price-sale{
+            font-weight: bold;
+        }
+        &_price{
+            padding-left: 5px;
+            text-decoration: line-through;
+            color: #909097;
+        }
+        &_price-bold{
+            font-weight: bold;
+        }
+    }
+}
+
+.home-feedback{
+    width: 100%;
+    padding-top: 50px;
+    .slider{
+        width: auto;
+    }
+}
+.slide-item{
+    min-height: 200px;
+    background: #000;
+    color: #fff;
+    div{
+        padding-top: 30px;
+        width: 40%;
+        margin: 0 auto;
+    }
+    span{
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+.home-count{
+    padding: 70px 0px;
+    background-color: #f9f9f9 !important;
+    .text-intro { 
+        color: #7a7a7a;
+        font-size: 16px;
+        font-weight: 300;
+        padding-top: 15px;
+    }
+    h1{
+        font-size: 69px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .text-description{
+        text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 5px;
+    }
+}

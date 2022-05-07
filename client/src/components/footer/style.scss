@@ -1,0 +1,41 @@
+.footer {
+  padding-top: 50px;
+  margin-top: 30px;
+  border-top: 1px solid #e4e4e9;
+  .logo {
+    width: 130px;
+    object-fit: cover;
+  }
+  &-service {
+    h5 {
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  &-list-option {
+    padding-top: 20px;
+    div {
+      color: #909097;
+      line-height: 20px;
+      font-size: 14px;
+      padding-bottom: 10px;
+    }
+  }
+  &-infor_shop {
+    &-label {
+      color: #909097;
+    }
+    &-content {
+      margin-left: 15px;
+    }
+  }
+  &-iframe {
+    padding-left: 30px;
+    &_title {
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+}

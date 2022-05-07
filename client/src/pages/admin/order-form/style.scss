@@ -1,0 +1,33 @@
+.status-default{
+    background-color: rgb(4, 99, 116);
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 15px;
+    min-width: 111px;
+}
+.status-ship{
+    background-color: rgb(138, 36, 4);
+    color: #fff;
+    padding: 5px 24px;
+    border-radius: 15px;
+    min-width: 111px;
+}
+.status-complete{
+    background-color: rgb(62, 187, 12);
+    color: #fff;
+    padding: 5px 19px;
+    border-radius: 15px;
+    min-width: 111px;
+}
+
+.active{
+    background-color:rgb(89, 243, 29);
+    padding: 10px;
+    border-radius: 10px;
+}
+.admin_table-order{
+    padding-top: 10px;
+    .ant-pagination{
+        padding-top: 30px;
+    }
+}

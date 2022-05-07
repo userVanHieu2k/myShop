@@ -1,0 +1,49 @@
+.header-top {
+  background-color: #f1f2f4;
+  padding: 0px 30px;
+  .fullname-profile {
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .header-title {
+    margin: auto 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .menu-top {
+    background-color: unset;
+    & li a {
+      font-weight: bold;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+  }
+}
+.header-bottom {
+  padding: 0 30px;
+  .logo{
+    width: 130px; 
+    position: absolute;
+    left:-250px;
+    margin-top: 15px;
+  }
+  .menu {
+    padding-top: 10px;
+    & li a {
+      font-weight: bold;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+  }
+  .icon {
+    & li {
+      margin: 0 10px !important;
+      & a {
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+  }
+}

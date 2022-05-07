@@ -1,0 +1,49 @@
+
+.store-user{
+    padding: 50px 30px;
+    .btn-follow{
+        position: absolute;
+        right: 30px;
+        font-weight: 600;
+        height: 40px;
+    }
+    table{
+        width: 100%;
+        margin-top: 50px;
+        thead tr th{
+            padding: 20px 0px;
+            text-align: center;
+        }
+        tbody tr{
+            width: 100%;
+           td{
+            padding: 20px 0px;
+            border-top: 1px solid rgb(245, 238, 238);
+            text-align: center;
+            text-transform: capitalize;
+            font-weight: 500;
+           }
+        }
+    }
+    .sum_price{
+        text-align: right;
+        padding-right: 30px;
+        width: 100%;
+    }
+    .btn-payment{
+        width: 100%;
+        background-color: rgb(224, 75, 15);
+        color: #fff;
+        height: auto;
+        padding: 10px 0px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .btn-add-product{
+        font-weight: 500;
+        border-radius: 5px;
+        svg{
+            margin-right: 8px;
+        }
+    }
+}

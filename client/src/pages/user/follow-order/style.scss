@@ -1,0 +1,44 @@
+.order-form{
+    padding-top: 50px;
+    h3{
+        text-transform: uppercase;
+        text-align: center;
+        width: 100%;
+    }
+    table{
+        width: 100%;
+        margin-top: 40px;
+        thead th{
+            padding: 20px 0px;
+            text-align: center;
+        }
+        tbody tr{
+            cursor: pointer;
+           td{
+            border-top: 1px solid rgb(223, 219, 219);
+            padding: 20px 0px;
+            text-align: center;
+            .status-default{
+                background-color: rgb(4, 99, 116);
+                color: #fff;
+                padding: 5px 15px;
+                border-radius: 15px;
+            }
+            .status-ship{
+                background-color: rgb(138, 36, 4);
+                color: #fff;
+                padding: 5px 25px;
+                border-radius: 15px;
+            }
+            .status-complete{
+                background-color: rgb(62, 187, 12);
+                color: #fff;
+                padding: 5px 15px;
+                border-radius: 15px;
+            }
+        } 
+        }
+        
+        
+    }
+}
